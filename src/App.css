@@ -1,4 +1,8 @@
 
+.App {
+  background-color: #f5f5f5;
+}
+
 .App-header {
   text-align: center;
   background-color: #FFFF;
@@ -31,3 +35,4 @@
 .menuNav a:hover{
   color: #125f99;
 }
+
