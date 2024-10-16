@@ -32,22 +32,18 @@ function App() {
           <ul><a href='#'>TOPS</a></ul>
         </nav>
       </header>
-      <div id="wg-api-football-games"
-          data-host="v3.football.api-sports.io"
-          data-key="6c148b3d78a635913eba9886ba0b1d97"
-          data-date=""
-          data-league=""
-          data-season=""
-          data-theme=""
-          data-refresh="30"
-          data-show-toolbar="true"
-          data-show-errors="false"
-          data-show-logos="false"
-          data-modal-game="true"
-          data-modal-standings="true"
-          data-modal-show-logos="true"
-          class="match-live">
-      </div>
+      <section className="matchContainer">
+        <div id="wg-api-football-games"
+            data-host="v3.football.api-sports.io"
+            data-key="6c148b3d78a635913eba9886ba0b1d97"
+            data-id="718243"
+            data-theme=""
+            data-refresh="15"
+            data-show-errors="false"
+            data-show-logos="true"
+            class="match-live">
+        </div>
+      </section>
     </div>
   );
 }
